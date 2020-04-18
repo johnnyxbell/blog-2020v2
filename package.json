@@ -1,0 +1,18 @@
+{
+  "license": "MIT",
+  "scripts": {
+    "start": "gatsby develop"
+  },
+  "dependencies": {
+    "gatsby": "^2.20.25",
+    "gatsby-plugin-react-helmet": "^3.2.4",
+    "gatsby-plugin-sass": "^2.2.3",
+    "gatsby-source-filesystem": "^2.2.4",
+    "gatsby-transformer-remark": "^2.7.3",
+    "node-sass": "^4.13.1",
+    "prettier": "^2.0.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.0.0"
+  }
+}

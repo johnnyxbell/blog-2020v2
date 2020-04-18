@@ -1,0 +1,42 @@
+.upcoming-events-section {
+  background-color: rgb(223, 165, 218);
+  width: 100vw;
+
+  img {
+    width: 100%;
+  }
+
+  h2 {
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .upcoming-events-wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+    grid-column-gap: 1em;
+
+    .upcoming-events-content {
+      padding: 10px;
+    }
+
+    .upcoming-event-1,
+    .upcoming-event-2 {
+      // grid-row: 2/3;
+      box-shadow: 0px 4px 20px -7px rgba(0, 0, 0, 0.75);
+      background-color: white;
+    }
+
+    .upcoming-event-1 {
+      grid-column: 4/7;
+    }
+
+    .upcoming-event-2 {
+      grid-column: 7/10;
+    }
+  }
+}
