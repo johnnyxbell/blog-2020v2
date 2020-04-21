@@ -1,12 +1,19 @@
 import React from 'react';
 
 import Layout from '../components/layout';
-import events from '../data/events.json';
+import conferences from '../data/conferences.json';
 
-export default () => (
+const events = () => (
   <Layout>
-    {events.map((event) => (
-      <h1>{event.name}</h1>
+    {conferences.map((conference) => (
+      <>
+        <img src={conference.image} alt={conference.title} />
+        <h1>{conference.title}</h1>
+        <h2>{conference.date}</h2>
+        <a href={conference.link}>{conference.title}</a>
+      </>
     ))}
   </Layout>
 );
+
+export default events;

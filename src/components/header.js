@@ -1,8 +1,8 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react';
+import { Link } from 'gatsby';
 
-import "../global/styles.scss"
-import HeaderStyles from "../styles/header.module.scss"
+import '../global/styles.scss';
+import HeaderStyles from '../styles/header.module.scss';
 
 const Header = () => {
   return (
@@ -23,22 +23,22 @@ const Header = () => {
               <Link to="/blog">Blog</Link>
             </li>
             <li className={HeaderStyles.navItem}>
-              <Link to="/blog">Portfolio</Link>
+              <Link to="/portfolio">Portfolio</Link>
             </li>
             <li className={HeaderStyles.navItem}>
-              <Link to="/blog">Events</Link>
+              <Link to="/events">Events</Link>
             </li>
             <li className={HeaderStyles.navItem}>
-              <Link to="/blog">Resume</Link>
+              <Link to="/resume">Resume</Link>
             </li>
             <li className={HeaderStyles.navItem}>
-              <Link to="/blog">Contact</Link>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </nav>
       </header>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

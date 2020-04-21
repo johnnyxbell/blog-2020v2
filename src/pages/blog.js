@@ -1,12 +1,7 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
 
-import Header from '../components/header';
-import Hero from '../components/hero';
-import Hire from '../components/hire';
-import Footer from '../components/footer';
 import Layout from '../components/layout';
-import SEO from '../components/seo';
 
 const BlogIndex = ({ data }) => {
   const siteTitle = data.site.siteMetadata.title;
