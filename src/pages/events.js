@@ -7,7 +7,7 @@ const events = () => (
   <Layout>
     {conferences.map((conference) => (
       <>
-        <img src={conference.image} alt={conference.title} />
+        {/* <img src={conference.image} alt={conference.title} /> */}
         <h1>{conference.title}</h1>
         <h2>{conference.date}</h2>
         <a href={conference.link}>{conference.title}</a>
