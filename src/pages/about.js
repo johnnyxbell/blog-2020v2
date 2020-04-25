@@ -1,21 +1,16 @@
 import React from 'react';
 import '../global/styles.scss';
 
-import Header from '../components/header';
 import Hire from '../components/hire';
-import Footer from '../components/footer';
+import Layout from '../components/layout';
 
 const About = () => {
-  return (
-    <section>
-      <div className="test-wrapper">
-        <Header />
-        <h1>Hey there, this is the about section!</h1>
-        <Hire />
-        <Footer />
-      </div>
-    </section>
-  );
+    return (
+        <Layout>
+            <h1>Hey there, this is the about section!</h1>
+            <Hire />
+        </Layout>
+    );
 };
 
 export default About;

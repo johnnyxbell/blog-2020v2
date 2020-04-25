@@ -8,20 +8,17 @@ import RecentWork from '../components/RecentWork';
 import UpcomingEvents from '../components/UpcomingEvents';
 import Hire from '../components/hire';
 import Footer from '../components/footer';
+import Layout from '../components/layout';
 
 const Index = () => {
-  return (
-    <>
-      <div className="container">
-        <Header />
-        <Hero />
-        <RecentWork />
-        <UpcomingEvents />
-        <Hire />
-        <Footer />
-      </div>
-    </>
-  );
+    return (
+        <Layout>
+            <Hero />
+            <RecentWork />
+            <UpcomingEvents />
+            <Hire />
+        </Layout>
+    );
 };
 
 export default Index;
