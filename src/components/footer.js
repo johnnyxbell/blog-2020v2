@@ -5,11 +5,27 @@ const Footer = () => {
   return (
     <footer className={FooterStyles.footer}>
       <div className={FooterStyles.footerWrapper}>
-        <div className="copyright">&copy; Chris DeMars 2020</div>
-        <div className="social-links">
+        <div className={FooterStyles.copyright}>&copy; Chris DeMars 2020</div>
+        <div className={FooterStyles.socialLinks}>
           <ul>
-            <li>LinkedIn</li>
-            <li>Twitter</li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/chrisdemars/"
+                target="_blank"
+                norel="noreferer"
+              >
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://twitter.com/saltnburnem"
+                target="_blank"
+                norel="noreferer"
+              >
+                Twitter
+              </a>
+            </li>
           </ul>
         </div>
       </div>
