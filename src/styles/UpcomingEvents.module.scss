@@ -1,6 +1,6 @@
 .upcoming-events-section {
-  background-color: rgb(223, 165, 218);
   width: 100vw;
+  background-color: #00ab0bab;
 
   img {
     width: 100%;
@@ -26,7 +26,6 @@
 
     .upcoming-event-1,
     .upcoming-event-2 {
-      // grid-row: 2/3;
       box-shadow: 0px 4px 20px -7px rgba(0, 0, 0, 0.75);
       background-color: white;
     }

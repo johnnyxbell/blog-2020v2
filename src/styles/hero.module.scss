@@ -1,5 +1,4 @@
 .hero-section {
-  // background-color: palevioletred;
   width: 100vw;
   border-bottom: 1px solid black;
 
@@ -23,10 +22,12 @@
     h1 {
       color: #138904;
       margin: 15px 0;
+      font-size: 3rem;
     }
 
     p {
       line-height: 1.5em;
+      font-size: 1.5rem;
     }
   }
 }

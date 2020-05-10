@@ -1,0 +1,15 @@
+.footer {
+  width: 100vw;
+  color: #ffffff;
+  background-color: fuchsia;
+
+  .footer-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    place-items: center;
+    padding: 30px 0;
+  }
+}
