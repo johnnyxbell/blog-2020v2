@@ -28,8 +28,8 @@
       padding: 10px 30px;
       background-color: transparent;
       border: none;
-      outline: #00ab0bab solid 2px;
-      color: #00ab0bab;
+      outline: #ffffff solid 2px;
+      color: #ffffff;
       font-size: 1rem;
       text-transform: uppercase;
       cursor: pointer;
@@ -38,8 +38,9 @@
 
       &:hover,
       &:focus {
-        color: #ffffff;
-        outline: #ffffff solid 2px;
+        color: #000000;
+        background-color: #ffffff;
+        outline: #000000 solid 2px;
       }
     }
   }
