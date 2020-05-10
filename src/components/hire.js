@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import HireStyles from '../styles/hire.module.scss';
 
 const Hire = () => {
@@ -12,7 +13,9 @@ const Hire = () => {
           architect the user experience? Maybe a developer with amazing CSS
           chops? Lets work together. I'd love to see what you having going on!
         </p>
-        <button className={HireStyles.btn}>Get in touch!</button>
+        <button className={HireStyles.btn}>
+          <Link to="/contact">Get in touch!</Link>
+        </button>
       </div>
     </section>
   );
