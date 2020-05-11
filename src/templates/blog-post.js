@@ -3,6 +3,8 @@ import { graphql } from 'gatsby';
 
 import Layout from '../components/layout';
 
+import BlogPostStyles from '../templates/blog-post.module.scss';
+
 export default ({
   data, // this prop will be injected by the GraphQL query below.
 }) => {
@@ -10,11 +12,11 @@ export default ({
   const { frontmatter, html } = markdownRemark;
   return (
     <Layout>
-      <div className="blog-post-container">
-        <div className="blog-post">
+      <div className={BlogPostStyles.blogPostContainer}>
+        <div className={BlogPostStyles.blogPost}>
           <h1>{frontmatter.title}</h1>
           <div
-            className="blog-post-content"
+            className={BlogPostStyles.blogPostContent}
             dangerouslySetInnerHTML={{ __html: html }}
           />
         </div>

@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, graphql } from 'gatsby';
 
 import Layout from '../components/layout';
+import Hire from '../components/hire';
 
 import BlogStyles from '../styles/blog.module.scss';
 
@@ -39,6 +40,7 @@ const BlogIndex = ({ data }) => {
           );
         })}
       </section>
+      <Hire />
     </Layout>
   );
 };
