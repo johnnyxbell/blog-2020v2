@@ -6,6 +6,8 @@ title: 'My first blog post'
 
 ## Holla
 
+[I'm an inline-style link](https://www.google.com)
+
 There are times in life when you just have to look back, and even though you have been in an industry for a long time, there will still be people who think they are better than you or look at you different because your title is lower on the totem pole than theirs. This is a generalized observation, not directed to anyone, and I not only see it in my life, I see it with other developers in the industry. The Web “game” is not new to me, I have been at it on-and-off for around 20 years, I may not have gained all the knowledge there is about the Web, because you know, shit happens, but I know enough that I feel I shouldn’t be looked down upon as a newbie in the game.
 
 There are times in life when you just have to look back, and even though you have been in an industry for a long time, there will still be people who think they are better than you or look at you different because your title is lower on the totem pole than theirs. This is a generalized observation, not directed to anyone, and I not only see it in my life, I see it with other developers in the industry. The Web “game” is not new to me, I have been at it on-and-off for around 20 years, I may not have gained all the knowledge there is about the Web, because you know, shit happens, but I know enough that I feel I shouldn’t be looked down upon as a newbie in the game.

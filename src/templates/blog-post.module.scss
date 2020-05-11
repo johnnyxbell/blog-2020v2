@@ -22,6 +22,7 @@
 
       p {
         padding-bottom: 20px;
+        line-height: 1.7rem;
       }
 
       blockquote {
@@ -50,6 +51,20 @@
       ol {
         margin-top: 20px;
         margin-bottom: 20px;
+      }
+
+      a {
+        color: #138904;
+        border-bottom: dotted 2px #138904;
+      }
+
+      a:hover,
+      a:focus {
+        background-color: #000000;
+        color: #138904;
+        border-bottom: dotted 2px #138904;
+        font-weight: 500;
+        text-decoration: none;
       }
 
       .blog-post-image {
