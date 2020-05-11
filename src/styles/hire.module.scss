@@ -23,6 +23,10 @@
       margin-bottom: 20px;
     }
 
+    a {
+      text-decoration: none;
+    }
+
     .btn {
       width: 200px;
       padding: 10px 30px;
@@ -34,13 +38,10 @@
       text-transform: uppercase;
       cursor: pointer;
       font-weight: bold;
-      letter-spacing: 1px;
 
-      &:hover,
-      &:focus {
-        color: #000000;
+      &:hover {
         background-color: #ffffff;
-        outline: #000000 solid 2px;
+        color: #000000;
       }
     }
   }

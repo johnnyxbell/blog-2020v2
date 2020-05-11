@@ -13,9 +13,9 @@ const Hire = () => {
           architect the user experience? Maybe a developer with amazing CSS
           chops? Lets work together. I'd love to see what you having going on!
         </p>
-        <button className={HireStyles.btn}>
-          <Link to="/contact">Get in touch!</Link>
-        </button>
+        <Link to="/contact" className={HireStyles.btn}>
+          Get in touch!
+        </Link>
       </div>
     </section>
   );
