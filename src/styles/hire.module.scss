@@ -1,7 +1,7 @@
 .hire-section {
   width: 100vw;
-  color: #ffffff;
-  background-color: #000000;
+  color: #000000;
+  background-color: #028661ad;
 
   .hire-wrapper {
     display: flex;
@@ -25,6 +25,7 @@
 
     a {
       text-decoration: none;
+      text-align: center;
     }
 
     .btn {
@@ -32,16 +33,16 @@
       padding: 10px 30px;
       background-color: transparent;
       border: none;
-      outline: #ffffff solid 2px;
-      color: #ffffff;
+      outline: #000000 solid 2px;
+      color: #000000;
       font-size: 1rem;
       text-transform: uppercase;
       cursor: pointer;
       font-weight: bold;
 
       &:hover {
-        background-color: #ffffff;
-        color: #000000;
+        background-color: #000000;
+        color: #028661ad;
       }
     }
   }

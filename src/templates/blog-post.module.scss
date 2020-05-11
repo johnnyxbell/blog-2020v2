@@ -34,7 +34,7 @@
           position: relative;
           height: 30px;
           width: 5px;
-          background-color: #138904;
+          background-color: #028661;
           display: block;
           top: 26px;
           left: -10px;
@@ -54,15 +54,16 @@
       }
 
       a {
-        color: #138904;
-        border-bottom: dotted 2px #138904;
+        color: #028661;
+        border-bottom: dotted 2px #028661;
+        text-decoration: none;
       }
 
       a:hover,
       a:focus {
         background-color: #000000;
-        color: #138904;
-        border-bottom: dotted 2px #138904;
+        color: #028661;
+        border-bottom: dotted 2px #028661;
         font-weight: 500;
         text-decoration: none;
       }
