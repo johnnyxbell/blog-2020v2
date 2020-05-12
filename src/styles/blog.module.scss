@@ -32,5 +32,10 @@
     &:hover {
       box-shadow: 0px 0px 10px 3px rgb(0, 94, 50);
     }
+
+    small {
+      margin-top: 10px;
+      display: block;
+    }
   }
 }

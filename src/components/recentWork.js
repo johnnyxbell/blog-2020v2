@@ -1,5 +1,7 @@
-import React from "react"
-import RecentWorkStyles from "../styles/RecentWork.module.scss"
+import React from 'react';
+import RecentWorkStyles from '../styles/RecentWork.module.scss';
+
+import work from '../data/work.json';
 
 const RecentWork = () => {
   return (
@@ -12,11 +14,15 @@ const RecentWork = () => {
             alt=""
           />
           <div className={RecentWorkStyles.recentWorkContent}>
-            <h3>Title</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
-              molestias? Asperiores rem maiores perferendis nisi, voluptates et.
-            </p>
+            {work.map((work) => (
+              <>
+                <h3>{work.title}</h3>
+                <p>{work.description}</p>
+                <a href={work.link} target="_blank">
+                  Go to site!
+                </a>
+              </>
+            ))}
           </div>
         </div>
         <div className={RecentWorkStyles.recentWork2}>
@@ -47,7 +53,7 @@ const RecentWork = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default RecentWork
+export default RecentWork;
