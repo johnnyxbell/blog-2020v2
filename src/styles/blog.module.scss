@@ -10,6 +10,20 @@
     margin-bottom: 30px;
   }
 
+  a {
+    color: #028661;
+    border-bottom: dotted 2px #028661;
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:focus {
+    color: #000000;
+    border-bottom: dotted 2px #000000;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
   article {
     margin-bottom: 30px;
     padding: 10px;
