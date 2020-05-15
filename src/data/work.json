@@ -4,5 +4,17 @@
     "title": "Roughnecks Barbershop",
     "description": "Barbershop site for a friend in Michigan.",
     "link": "https://www.roughnecksbarbershop.com/"
+  },
+  {
+    "image": "./images/test-image.png",
+    "title": "Sincorazon Tattoos",
+    "description": "Tattoo shop site for a friend in Michigan.",
+    "link": "http://sincorazontattoos.com/"
+  },
+  {
+    "image": "./images/test-image.png",
+    "title": "Blackwater Studios",
+    "description": "Tattoo studio site for a friend in Michigan.",
+    "link": "http://blackwaterstudios.net/"
   }
 ]

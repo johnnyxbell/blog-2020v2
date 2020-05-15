@@ -16,6 +16,18 @@
         padding-bottom: 10px;
       }
 
+      .test {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+      }
+
+      img {
+        max-width: 800px;
+        margin: 0 auto;
+        display: block;
+      }
+
       em {
         font-style: italic;
       }
