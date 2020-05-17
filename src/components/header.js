@@ -22,7 +22,7 @@ const Header = () => {
             <li className={HeaderStyles.navItem}>
               <Link to="/blog">Blog</Link>
             </li>
-            <li className={HeaderStyles.navItem}>
+            {/* <li className={HeaderStyles.navItem}>
               <Link to="/portfolio">Portfolio</Link>
             </li>
             <li className={HeaderStyles.navItem}>
@@ -30,7 +30,7 @@ const Header = () => {
             </li>
             <li className={HeaderStyles.navItem}>
               <Link to="/resume">Resume</Link>
-            </li>
+            </li> */}
             <li className={HeaderStyles.navItem}>
               <Link to="/contact">Contact</Link>
             </li>

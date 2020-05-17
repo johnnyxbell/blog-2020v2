@@ -1,6 +1,13 @@
 .hire-section {
   width: 100vw;
   color: #000000;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(0, 255, 201, 1) 50%,
+    rgba(11, 170, 133, 1) 100%
+  );
 
   .hire-wrapper {
     display: flex;
@@ -41,7 +48,7 @@
 
       &:hover {
         background-color: #000000;
-        color: #028661ad;
+        color: #00a781ad;
       }
     }
   }
