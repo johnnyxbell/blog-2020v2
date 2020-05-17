@@ -1,7 +1,7 @@
 import React from 'react';
 import '../global/styles.scss';
 
-import Hire from '../components/hire';
+import Hire from '../components/Hire';
 import Layout from '../components/layout';
 
 import AboutStyles from '../styles/about.module.scss';

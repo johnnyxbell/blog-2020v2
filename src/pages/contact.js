@@ -2,7 +2,7 @@ import React from 'react';
 import '../global/styles.scss';
 import '../styles/contact.module.scss';
 
-import Layout from '../components/layout';
+import Layout from '../components/Layout';
 
 const Contact = () => {
   return (

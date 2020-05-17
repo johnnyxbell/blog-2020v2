@@ -1,7 +1,7 @@
 import React from 'react';
 import '../global/styles.scss';
 
-import SEO from '../components/SEO';
+import SEO from '../components/seo';
 import Hero from '../components/Hero';
 import RecentWork from '../components/RecentWork';
 import UpcomingEvents from '../components/UpcomingEvents';

@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Layout from '../components/layout';
+import Layout from '../components/Layout';
 import conferences from '../data/conferences.json';
 
-const events = () => (
+const Events = () => (
   <Layout>
     {conferences.slice(0, 3).map((conference) => (
       <>
@@ -16,4 +16,4 @@ const events = () => (
   </Layout>
 );
 
-export default events;
+export default Events;

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, graphql } from 'gatsby';
 
 import Layout from '../components/layout';
-import Hire from '../components/hire';
+import Hire from '../components/Hire';
 
 import BlogStyles from '../styles/blog.module.scss';
 
