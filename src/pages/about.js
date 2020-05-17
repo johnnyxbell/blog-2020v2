@@ -1,8 +1,8 @@
 import React from 'react';
 import '../global/styles.scss';
 
-import Hire from '../components/Hire';
-import Layout from '../components/layout';
+import Hire from '../components/Hire.js';
+import Layout from '../components/layout.js';
 
 import AboutStyles from '../styles/about.module.scss';
 

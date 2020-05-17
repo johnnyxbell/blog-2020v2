@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
 
-import Layout from '../components/layout';
-import Hire from '../components/Hire';
+import Layout from '../components/layout.js';
+import Hire from '../components/Hire.js';
 
 import BlogStyles from '../styles/blog.module.scss';
 
