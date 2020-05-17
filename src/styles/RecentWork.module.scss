@@ -10,37 +10,46 @@
     padding-top: 30px;
   }
 
+  a {
+    color: #028661;
+    border-bottom: dotted 2px #028661;
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:focus {
+    background-color: #000000;
+    color: #028661;
+    border-bottom: dotted 2px #028661;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
   .recent-work-wrapper {
     display: grid;
-    grid-template-columns: repeat(11, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 40px 0;
     grid-column-gap: 1em;
 
-    .recent-work-content {
-      padding: 10px;
-    }
-
-    .recent-work-1,
-    .recent-work-2,
-    .recent-work-3 {
-      // grid-row: 2/3;
+    .recent-work {
       box-shadow: 0px 4px 20px -7px rgba(0, 0, 0, 0.75);
       background-color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
     }
 
-    .recent-work-1 {
-      grid-column: 2/5;
+    .recent-work-image {
+      display: block;
+      margin: auto;
     }
 
-    .recent-work-2 {
-      grid-column: 5/8;
-    }
-
-    .recent-work-3 {
-      grid-column: 8/11;
+    .recent-work-content {
+      padding: 10px;
     }
   }
 }

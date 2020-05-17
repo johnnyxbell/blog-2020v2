@@ -5,7 +5,7 @@ import conferences from '../data/conferences.json';
 
 const events = () => (
   <Layout>
-    {conferences.map((conference) => (
+    {conferences.slice(0, 3).map((conference) => (
       <>
         {/* <img src={conference.image} alt={conference.title} /> */}
         <h1>{conference.title}</h1>
